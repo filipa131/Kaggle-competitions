@@ -1,7 +1,7 @@
 # Kaggle Competition: Playground Series - Season 5, Episode 1 (S5E1)
 
 ## Overview
-This repository contains the solution for the [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s5e1), where the goal is to predict the number of products sold (`num_sold`). The final model achieved a **MAPE of 0.09729** using a weighted ensemble of LightGBM, XGBoost, and Random Forest.
+This repository contains the solution for the [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s5e1), where the goal is to predict the number of products sold (`num_sold`). The final model achieved a **MAPE of 0.09578** using a weighted ensemble of LightGBM, XGBoost, and Random Forest.
 
 ## Approach
 1. **Data Preprocessing**:
@@ -23,4 +23,4 @@ This repository contains the solution for the [Kaggle competition](https://www.k
    - Generated predictions for the test set and created `submission.csv`.
 
 ## Results
-- **Final Validation MAPE**: 0.09729
+- **Final Validation MAPE**: 0.09578
